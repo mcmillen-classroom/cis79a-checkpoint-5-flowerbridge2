@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <string name="question_text">Placeholder for first question...</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+
+    <string name="question_1">Is Captain Marvel a girl</string>
+    <string name="question_2">Captain American have a shield</string>
+    <string name="question_3">Black Widow dies</string>
+    <string name="question_4">Hulk is the big green guy</string>
+    <string name="question_5">Iron Man dies</string>
+</resources>

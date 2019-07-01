@@ -10,4 +10,10 @@
     <string name="question_3">Black Widow dies</string>
     <string name="question_4">Hulk is the big green guy</string>
     <string name="question_5">Iron Man dies</string>
+    <string name="hint_1">she have long hair</string>
+    <string name="hint_2">watch End Game</string>
+    <string name="hint_3">watch End Game</string>
+    <string name="hint_4">He can transform</string>
+    <string name="hint_5">watch End Game</string>
 </resources>
+

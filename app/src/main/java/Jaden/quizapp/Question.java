@@ -2,13 +2,11 @@ package Jaden.quizapp;
 
 public class Question {
     private int mTextResId;
-    private boolean mAnswer;
     private int mHintTextResId;
 
 
-    public Question(int textResId, boolean answer, int hintTextResId) {
+    public Question(int textResId, int hintTextResId) {
         mTextResId = textResId;
-        mAnswer = answer;
         mHintTextResId = hintTextResId;
     }
 
@@ -20,16 +18,43 @@ public class Question {
         mTextResId = textResId;
     }
 
-    public boolean getAnswer() {
-        return mAnswer;
-    }
 
-    public void setAnswer(boolean answer) {
-        mAnswer = answer;
-    }
 
     public int getmHintTextResId() {
         return mHintTextResId;
     }
+
+    // stub method - intentionally does nothing
+    // only applies to true false question
+    public boolean checkAnswer(boolean boolResponse)
+    {
+        return false;
+    }
+
+    // stub method
+    // only applies to fill the blank question
+    public boolean checkAnswer(String userAnswer)
+    {
+        return false;
+    }
+    //stub method
+    public boolean isTrueFalseQuestion(){
+        return false;
+    }
+    //stub
+    public boolean isFillTheBlankQuestion(){
+        return false;
+    }
+    //stub
+    public boolean isMultipleChoiceQuestion(){
+        return false;
+    }
+
+    //stub
+    public boolean checkAnswer(int ans){
+        return false;
+    }
+
+
 
 }

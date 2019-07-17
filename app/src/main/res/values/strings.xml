@@ -5,6 +5,15 @@
     <string name="true_button">True</string>
     <string name="false_button">False</string>
 
+    <string name="cheat_button">Cheat!</string>
+    <string name="cheat_warning">Are you sure about this?</string>
+    <string name="show_answer_button">Show answer</string>
+    <string name="cheat_shame">WOW WHAT A CHEATER!</string>
+
+
+
+
+
     <string name="question_1">Is Captain Marvel a girl</string>
     <string name="question_2">Captain American have a shield</string>
     <string name="question_3">Black Widow dies</string>
